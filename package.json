@@ -1,0 +1,27 @@
+{
+  "name": "playlist",
+  "version": "1.0.0",
+  "description": "Playlist teste",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/grafirenato/playlist.git"
+  },
+  "author": "BackTrack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grafirenato/playlist/issues"
+  },
+  "homepage": "https://github.com/grafirenato/playlist#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
